@@ -106,7 +106,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
-    audio.primary.lito \
     audio.r_submix.default \
     audio.usb.default \
     libaudiopreprocessing \
@@ -180,7 +179,6 @@ PRODUCT_PACKAGES += \
     gralloc.lito \
     memtrack.lito \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libsdmcore \
     libsdmutils \
