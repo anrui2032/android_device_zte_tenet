@@ -3,7 +3,7 @@ on init
     chown system system /sys/class/leds/vibrator_aw8695/duration
     chown system system /sys/class/leds/vibrator_aw8695/state
 
-service vendor.qti.vibrator /vendor/bin/hw/vendor.qti.hardware.vibrator.service.FP4
+service vendor.qti.vibrator /vendor/bin/hw/vendor.qti.hardware.vibrator.service.tenet
     class hal
     user system
     group system input

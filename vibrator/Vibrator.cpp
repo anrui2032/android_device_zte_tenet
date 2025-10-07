@@ -27,7 +27,7 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#define LOG_TAG "vendor.qti.vibrator.FP4"
+#define LOG_TAG "vendor.qti.vibrator.tenet"
 
 #include <cutils/properties.h>
 #include <dirent.h>
