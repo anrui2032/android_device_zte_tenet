@@ -55,6 +55,9 @@ vendor/lib/hw/audio.primary.lito.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 
+# Audio (Firmware)
+vendor/firmware/aw881xx_acf.bin
+
 # Audio (FX modules)
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
