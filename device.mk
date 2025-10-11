@@ -368,7 +368,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
-    init.qcom.fingerid.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qcom.usb.sh
