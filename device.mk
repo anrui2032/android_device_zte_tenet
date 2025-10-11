@@ -104,32 +104,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
-# Audio (HIDL)
+# Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.service
-
-# Audio (Hardware)
-PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
     audio.a2dp.default \
     audio.primary.lito \
     audio.r_submix.default \
-    audio.usb.default
-
-# Audio (Extensions)
-PRODUCT_PACKAGES += \
-    liba2dpoffload \
-    libbatterylistener \
-    libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
-    libhfp \
-    libsndmonitor \
-    libspkrprot
-
-# Audio (SoundFX)
-PRODUCT_PACKAGES += \
+    audio.usb.default \
     libaudiopreprocessing \
     libbundlewrapper \
     libdownmix \
