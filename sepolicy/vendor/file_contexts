@@ -30,7 +30,3 @@
 /sys/devices/virtual/misc/msm_qcelp/wakeup[0-9]+(/.*)?                     u:object_r:sysfs_wakeup:s0
 /sys/devices/virtual/misc/msm_wma/wakeup[0-9]+(/.*)?                       u:object_r:sysfs_wakeup:s0
 /sys/devices/virtual/misc/msm_wmapro/wakeup[0-9]+(/.*)?                    u:object_r:sysfs_wakeup:s0
-
-# Vibrator
-/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.tenet               u:object_r:hal_vibrator_default_exec:s0
-
