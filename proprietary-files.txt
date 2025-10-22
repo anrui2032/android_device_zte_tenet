@@ -179,6 +179,11 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Camera
 vendor/bin/camerahalvs
+vendor/etc/camera/arc_widelencalc_cali.bin
+vendor/etc/camera/beautiful_app/preference_beautify0.json
+vendor/etc/camera/beautiful_app/preference_beautify1.json
+vendor/etc/camera/beautiful_app/preference_beautify2.json
+vendor/etc/camera/beautiful_fn/fn_default.xml
 vendor/etc/init/camerahalvs.rc
 vendor/lib/libswvdec.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
