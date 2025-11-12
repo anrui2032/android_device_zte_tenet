@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021-2025 Miku UI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Maintainer url -->
+    <string name="miku_maintainer_uri" translatable="false">https://github.com/anrui2032</string>
+</resources>

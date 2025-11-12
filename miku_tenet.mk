@@ -12,15 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tenet device
 $(call inherit-product, device/zte/tenet/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Miku stuff.
+$(call inherit-product, vendor/miku/build/product/miku_product_phone.mk)
+
+# Maintainer
+MIKU_MASTER := anrui2032
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := ZTE
 PRODUCT_DEVICE := tenet
 PRODUCT_MANUFACTURER := ZTE
 PRODUCT_MODEL := ZTE A2122H
-PRODUCT_NAME := lineage_tenet
+PRODUCT_NAME := miku_tenet
 
 PRODUCT_GMS_CLIENTID_BASE := android-zte
 
